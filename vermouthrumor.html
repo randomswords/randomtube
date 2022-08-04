@@ -1,0 +1,238 @@
+<html>
+    <head>
+        <title>Down Like That</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <style>
+        *{
+            margin: 0;
+        }
+
+        nav{
+            background-color: white;
+            border-bottom: 2px solid orangered;
+            top: 0;
+            position: sticky;
+            margin-left: 0%;
+            margin-right: 0%;
+            z-index: 10px;
+            border-left: 0;
+            border-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+        }
+
+        h1{
+            font-size: 35px;
+            font-style: italic;
+            color: orangered;
+            padding-top: 1.5%;
+            padding-bottom: 1.5%;
+        }
+
+        h2{
+            font-size: 25px;
+            font-style:normal;
+            color: orangered;
+            padding-top: 1.5%;
+            padding-bottom: 1.5%;
+        }
+
+        p{
+            font-size: 20px;
+            font-style:normal;
+            color: orangered;
+            margin-top: 50.5;
+            margin-bottom: auto;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+
+        body{
+            background-color: white;
+            
+        }
+
+        .container{
+            margin-top: 2%;
+            margin-left: 3%;
+            margin-right: 3%;
+            display: flex;
+        }
+
+        .row{
+            display: flex;
+        }
+
+        .sec1{
+            padding-right: 3%;
+            width: 65%;
+        }
+
+        .thumb img{
+            height: 141;
+            width: 252;
+        }
+
+        .thumb{
+            padding-right: 4%;
+        }
+
+        .row{
+            padding-top: 3%;
+            padding-bottom: 3%;
+          
+        }
+
+        .row:hover .title a{
+            color: white;
+        }
+        .sec2{
+            display: flex;
+            height: 141;
+            display: grid;
+            width:32%;
+            
+            
+        }
+
+        .sec1sec2{
+            display: none;
+        }
+
+       
+        
+        @media only screen and (max-width: 1300px){
+
+            .sec1sec2{
+            display: grid;
+        }
+
+        .sec2{
+            display: none;
+        }
+
+        .sec1{
+            width: 100%;
+        }
+
+        
+        }
+
+        @media only screen and (max-width: 700px){
+
+            .container{
+                margin-top: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+            .sec1sec2{
+            
+            margin-left: 3%;
+            margin-right: 3%;
+            display: grid;
+            
+        }
+
+        h2{
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+
+        .sec1{
+            padding-right: 0;
+        }
+
+        .row{
+            border-top: none;
+            border-bottom: none;
+        }
+       .comments{
+        margin-left: 3%;
+        margin-right: 3%;
+       }
+        }
+    </style>
+
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0" nonce="qkP7ptRx"></script>
+    
+
+
+    <nav>
+        <center><h1>RandomTube</h1></center>
+    </nav>
+<div class = "container">
+    <div class ="sec1">
+
+        <div class = "video">
+                <video controls width = 100%>
+                    <source src = "rumor.mp4">
+                </video>
+                <h2>Vermouth amv rumors</h2>
+        </div>
+
+        <div class ="sec1sec2" id = "row">
+
+
+            <a href = "likethat.html">
+            <div class = "row" width = 100%>
+                <div class = "thumb"><img src = "likethat.jpg"></div> <div class = "title"><p>Down like that ft. KSI</p></div>
+            </div>
+            </a>
+
+            <a href = "tanya.html">
+                <div class = "row" width = 100%>
+                    <div class = "thumb"><img src = "tanya.jpg"></div> <div class = "title"><p>Tanya amv</p></div>
+                </div>
+                </a>
+    
+    
+    
+    
+    
+            </div>
+
+            <div class ="comments">
+                <div class="fb-comments" data-href="https://likethat.com" data-width="100%" data-numposts="10"></div>
+            </div>
+
+    </div>
+
+
+
+
+    
+    <div class ="sec2" id = "row">
+
+
+        <a href = "likethat.html">
+            <div class = "row" width = 100%>
+                <div class = "thumb"><img src = "likethat.jpg"></div> <div class = "title"><p>Down like that ft. KSI</p></div>
+            </div>
+            </a>
+
+            <a href = "tanya.html">
+                <div class = "row" width = 100%>
+                    <div class = "thumb"><img src = "tanya.jpg"></div> <div class = "title"><p>Tanya amv</p></div>
+                </div>
+                </a>
+    
+
+
+
+
+
+    </div>
+    
+
+
+</div>
+</body>
+</html>
