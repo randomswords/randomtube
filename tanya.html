@@ -201,8 +201,15 @@ margin-right: 3%;
 
         p{
             margin-top: 37.95;
+        
         }
+
+        .video{
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
+    }
     </style>
 
 <body>
@@ -217,12 +224,14 @@ margin-right: 3%;
     <div class ="sec1">
 
         <div class = "video">
-                <video controls width = 100%>
+            <div class ="mobilevideo">
+                <video class="mobilevideo" controls width = 100%>
                     <source src = "tanya.mp4">
                 </video>
-                <h2>Tanya amv</h2>
+            </div>
+                
         </div>
-
+        <h2>Tanya amv</h2>
         <div class ="sec1sec2" id = "row">
 
 
